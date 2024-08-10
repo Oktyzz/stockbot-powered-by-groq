@@ -1,6 +1,7 @@
 import { clsx, type ClassValue } from 'clsx'
 import { customAlphabet } from 'nanoid'
 import { twMerge } from 'tailwind-merge'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
